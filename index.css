@@ -1,0 +1,173 @@
+header {
+  position: fixed;
+  width: 100%;
+  padding: 1rem 9%;
+  backdrop-filter: blur(10px);
+  filter: drop-shadow(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  background-color: aliceblue;
+}
+
+footer {
+  background-color: aliceblue;
+}
+
+.movie-info {
+  text-align: center;
+}
+
+#intro-paragraph {
+  min-height: 30vh;
+  height: fit-content;
+  padding: 5rem 9% 5rem 9%;
+  size: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  color: aliceblue;
+}
+
+#genre-cast-info {
+  min-height: 30vh;
+  size: relative;
+  height: fit-content;
+  font-size: large;
+}
+
+#movie-of-day {
+  position: relative;
+  color: aliceblue;
+}
+
+img {
+  position: relative;
+}
+
+#movie-title0 {
+  position: relative;
+  color: aliceblue;
+}
+
+#movie-year0 {
+  position: relative;
+  color: aliceblue;
+}
+
+#genres0 {
+  position: relative;
+  color: aliceblue;
+}
+
+#movie-genres0 {
+  position: relative;
+  color: aliceblue;
+}
+
+#cast0 {
+  position: relative;
+  color: aliceblue;
+}
+
+#movie-cast0 {
+  position: relative;
+  color: aliceblue;
+}
+
+#movie-info0 {
+  color: aliceblue;
+}
+
+#movie-title {
+  position: relative;
+  color: aliceblue;
+}
+
+#movie-year {
+  position: relative;
+  color: aliceblue;
+}
+
+#genres {
+  position: relative;
+  color: aliceblue;
+}
+
+#movie-genres {
+  position: relative;
+  color: aliceblue;
+}
+
+#cast {
+  position: relative;
+  color: aliceblue;
+}
+
+#movie-cast {
+  position: relative;
+  color: aliceblue;
+}
+
+#movie-info {
+  color: aliceblue;
+}
+
+#form {
+  justify-items: center;
+  background-size: auto;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: black;
+  padding: 20px;
+}
+
+div#details {
+  background-color: aliceblue;
+}
+
+div#form {
+  background-color: aliceblue;
+}

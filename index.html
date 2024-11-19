@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>document</title>
+  </head>
+  <body>
+    <header>
+      <h1>HoneyComb</h1>
+    </header>
+    <main>
+      <div id="intro">
+        <section id="intro-paragraph">
+          <p>
+            Welcome to HoneyComb a web app to help you choose a movie when you
+            can't. You can input a number of criteria and our program will
+            create a list of the best movies for you! HoneyComb has 38 different
+            genres to choose from and over 1000 movies between the years of
+            2020~2023 to be recommended!
+          </p>
+          <p>
+            Disclaimer! If the movie doesn't update that means there is no movie
+            that fits your criteria.
+          </p>
+        </section>
+      </div>
+      <div id="details">
+        <section id="genre-cast-info">
+          <p>
+            With over 38 genres their is a lot to choose from so here are a few
+            to get you started:
+          </p>
+          <ul id="genre-list"></ul>
+
+          <p>With hundreds of cast members, heres a few to check out:</p>
+          <ul id="cast-list"></ul>
+        </section>
+      </div>
+      <div id="movie-of-the-day">
+        <section class="movie-info">
+          <h3 id="movie-of-day">Movie Of the Day</h3>
+          <img id="img0" />
+          <h4 id="movie-title0"></h4>
+          <h5 id="movie-year0"></h5>
+          <p id="genres0"></p>
+          <p id="movie-genres0"></p>
+          <p id="cast0"></p>
+          <p id="movie-cast0"></p>
+          <p id="movie-info0"></p>
+        </section>
+      </div>
+      <div id="form">
+        <section>
+          <form>
+            <label for="genre">Genre:</label>
+            <input type="text" id="genre" name="genre" />
+
+            <label for="castMember">Cast Member:</label>
+            <input type="text" id="castMember" name="castMember" />
+
+            <label for="year">Year:</label>
+            <input type="number" id="year" name="year" />
+
+            <button id="generate-movie" type="submit">Generate Movie</button>
+          </form>
+        </section>
+      </div>
+      <div id="movie">
+        <section class="movie-info">
+          <img id="img1" />
+          <h4 id="movie-title"></h4>
+          <h5 id="movie-year"></h5>
+          <p id="genres"></p>
+          <p id="movie-genres"></p>
+          <p id="cast"></p>
+          <p id="movie-cast"></p>
+          <p id="movie-info"></p>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>@HoneyComb</p>
+    </footer>
+  </body>
+  <script type="module" src="index.js"></script>
+</html>
